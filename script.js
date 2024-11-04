@@ -1,6 +1,6 @@
 function toCase(text) {
     // write your code here
-    const left = text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
+    const left = text.toLowerCase();
     const right = text.toUpperCase();
     return `${left}-${right}`;
 }
